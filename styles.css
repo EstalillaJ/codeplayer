@@ -6,6 +6,34 @@ body {
   padding:0;
 }
 
+.wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+textarea {
+  width: 25%;
+  margin: 0 auto;
+  padding: 0;
+  display: inline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#Result-area {
+  float: right;
+}
+
+#textareas {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: red;
+}
+
 #codeSelector {
   margin: 0 auto;
   width: 229px;
@@ -51,6 +79,9 @@ body {
   background-color: #ebebeb;
   border-bottom: 1px solid gray;
 }
+
+
+
 
 .break {
   clear: both;
