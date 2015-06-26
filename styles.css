@@ -39,10 +39,6 @@ body {
   background-color: gray;
 }
 
-
-
-
-
 #logo {
   font-weight: bold;
   padding-top: 15px;
@@ -54,6 +50,10 @@ body {
   height: 50px;
   background-color: #ebebeb;
   border-bottom: 1px solid gray;
+}
+
+.break {
+  clear: both;
 }
 
 #runButton {
