@@ -19,6 +19,6 @@ $(".menu-item").click(function() {
   }).length;
 
 
-  var width = 100/number;
+  var width = 100/numDisplayed;
   $(".codecontainer").css("width", width+"%");
 });
