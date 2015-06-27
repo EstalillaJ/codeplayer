@@ -1,5 +1,5 @@
 var height=$( window ).height()-40;
-
+var originalResult = $("#resultcontainer").html();
 
 
 $(".codecontainer").css("height",height+"px");
@@ -21,4 +21,11 @@ $(".menu-item").click(function() {
 
   var width = 100/numDisplayed;
   $(".codecontainer").css("width", width+"%");
+});
+
+$("#run").click(function() {
+  $("#resultcontainer").html(
+    originalResult + $("#htmlCode").val());
+  $("#resultJS").html($("#jsCode").val());
+  $("#resultCSS").html($("#cssCode").val());
 });
